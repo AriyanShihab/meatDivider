@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #0b0931;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 20px;
+}
+
+.heading {
+    font-size: 20px;
+    color: #0b0931;
+    margin: 10px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid #b7b6b6;
+    border-radius: 8px;
+}
+
+.weaight,
+.partnerCount {
+    display: block;
+    border: none;
+    outline: none;
+    padding: 15px;
+    height: 40px;
+    width: 80%;
+    margin: 20px auto;
+    background: #f1f6fb;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.partnerCount {
+    height: 70px;
+}
+
+.warning {
+    color: rgb(253, 131, 131);
+}
+
+.small {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.submit-button {
+    border: none;
+    outline: none;
+    background: #0b0931;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.infoBer {
+    color: #0b0931;
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.learge {
+    font-size: 22px;
+    color: #7f39ef;
+}
+
+.animated {
+    max-height: 0px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    transition: max-height 0.7s ease-in-out;
+}
+
+.show {
+    transition: max-height 0.7s ease-in-out;
+    min-height: fit-content;
+    max-height: 600px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(247, 25, 43, 0.195);
+}
+
+footer a {
+    text-decoration: none;
+    color: #7f39ef;
+    margin: 5px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #0b0931;
+    color: #efefef;
+}
