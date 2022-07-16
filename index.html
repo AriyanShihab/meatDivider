@@ -9,7 +9,7 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Pacifico&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&family=Tiro+Bangla&display=swap" rel="stylesheet" />
     <!-- css -->
     <link rel="stylesheet" href="./style/style.css" />
     <title>Meat Divider</title>
@@ -20,7 +20,7 @@
         <div class="container">
             <legend></legend>
             <p class="infoBer hide" id="result">
-                আপনার দেয়া তথ্য হিসাব করে দেখা যাই, প্রতি একজন ব্যাক্তি পাচ্ছেন
+                আপনার দেয়া তথ্য হিসাব করে দেখা যাই, প্রত্যেক ব্যাক্তি পাচ্ছেন
                 <span class="learge" id="quantityPerPerson"></span> কেজি। সেই ব্যাক্তি যদি তার ভাগের গোশত কে তিন ভাগ করেন, তাহলে প্রত্যেক ভাগে থাকে
                 <span class="learge" id="oneThirdPerPerson"></span> কেজি
             </p>
@@ -30,13 +30,13 @@
                 </h1>
                 <p class="bn small animated" id="infoPanel">
                     অনুগ্রহ করে পরিমাণ কেজি মাপে লিখবেন এবং সংখ্যা টা ইংরেজী ভাষা তে লিখবেন অর্থাৎ ১২০ না দিয়ে, 120 দেন। <br />
-                    <span class="warning">সর্বোচ্চ ১৬০০ কেজি দিতে পারবেন এবং আপনাকে গোশত এর পরিমান এবং
+                    <span class="warning">সর্বোচ্চ ৩,০০০ কেজি দিতে পারবেন এবং আপনাকে গোশত এর পরিমান এবং
               ভাগিদার আবশ্যই নির্বাচন করতে হবে নাহলে এই ওয়েব পেইজ টি কাজ করবে না
               <br />
               ধন্যবাদ
             </span>
                 </p>
-                <input id="meatWeaight" class="weaight" type="number" min="0" max="1600" required placeholder="মোট গোশত এর পরিমাণ" />
+                <input id="meatWeaight" class="weaight" type="number" min="0" max="3000" step="any" required placeholder="মোট গোশত এর পরিমাণ" />
                 <h1 class="bn heading">
                     আপনার কুরবানি দেয়া পশুতে মোট কতজন ভাগিদার ছিলেন তা নির্বাচন করুন
                 </h1>
@@ -65,7 +65,7 @@
             </p>
 
             <div>
-                <a href=""> github</a>
+                <a href="https://github.com/AriyanShihab"> github</a>
                 <a href="https://www.linkedin.com/in/ariyanshihab/"> linkedin</a>
             </div>
         </div>
