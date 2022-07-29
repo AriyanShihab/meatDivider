@@ -40,8 +40,7 @@ function handelData(e) {
     const person = document.getElementById(`person`).value;
     const eachPerson = document.getElementById(`quantityPerPerson`);
     const eachPersonOneThird = document.getElementById(`oneThirdPerPerson`);
-    // let temp = weight / person;
-    // let fixd = temp.toFixed(2);
+
     eachPerson.innerHTML = getBanglaFixed(weight / person);
     let fix = weight / person / 3;
 
@@ -50,6 +49,7 @@ function handelData(e) {
     res.classList.remove(`hide`);
     document.body.scrollIntoView({ behavior: "smooth" });
 }
+// for warning
 const input = document.getElementById(`meatWeaight`);
 input.addEventListener(`click`, () => {
     const infoPanel = document.getElementById(`infoPanel`);

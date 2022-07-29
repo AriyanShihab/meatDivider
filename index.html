@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&family=Tiro+Bangla&display=swap" rel="stylesheet" />
+
     <!-- css -->
     <link rel="stylesheet" href="./style/style.css" />
     <title>Meat Divider</title>
@@ -18,12 +19,14 @@
 <body>
     <main class="parent">
         <div class="container">
-            <legend></legend>
-            <p class="infoBer hide" id="result">
-                আপনার দেয়া তথ্য হিসাব করে দেখা যাই, প্রত্যেক ব্যাক্তি পাচ্ছেন
-                <span class="learge" id="quantityPerPerson"></span> কেজি। সেই ব্যাক্তি যদি তার ভাগের গোশত কে তিন ভাগ করেন, তাহলে প্রত্যেক ভাগে থাকে
-                <span class="learge" id="oneThirdPerPerson"></span> কেজি
-            </p>
+            <div id="result" class="infoBer hide">
+                <h2 class="heading">আপনার ফলাফল</h2>
+                <p>
+                    আপনার দেয়া তথ্য হিসাব করে দেখা যাই, প্রত্যেক ব্যাক্তি পাচ্ছেন
+                    <span class="learge" id="quantityPerPerson"></span> কেজি। সেই ব্যাক্তি যদি তার ভাগের গোশত কে তিন ভাগ করেন, তাহলে প্রত্যেক ভাগে থাকে <span class="learge" id="oneThirdPerPerson"></span> কেজি
+                </p>
+            </div>
+
             <form action="#" id="calculateData">
                 <h1 class="bn heading">
                     আপনার কুরবানি দেয়া পশু থেকে প্রাপ্ত মোট গোশত এর পরিমাণ লিখুন
@@ -31,9 +34,10 @@
                 <p class="bn small animated" id="infoPanel">
                     অনুগ্রহ করে পরিমাণ কেজি মাপে লিখবেন এবং সংখ্যা টা ইংরেজী ভাষা তে লিখবেন অর্থাৎ ১২০ না দিয়ে, 120 দেন। <br />
                     <span class="warning">সর্বোচ্চ ৩,০০০ কেজি দিতে পারবেন এবং আপনাকে গোশত এর পরিমান এবং
-              ভাগিদার আবশ্যই নির্বাচন করতে হবে নাহলে এই ওয়েব পেইজ টি কাজ করবে না
+              ভাগিদার আবশ্যই নির্বাচন করতে হবে নাহলে এই ওয়েব পেইজ টি কাজ করবে
+              না।
               <br />
-              ধন্যবাদ
+              ধন্যবাদ!
             </span>
                 </p>
                 <input id="meatWeaight" class="weaight" type="number" min="0" max="3000" step="any" required placeholder="মোট গোশত এর পরিমাণ" />
@@ -59,19 +63,25 @@
     </main>
     <footer>
         <div class="center">
-            <p>
-                develop by
-                <a href="https://github.com/AriyanShihab/"> Ariyan Shihab</a>
-            </p>
+            <a class="footer-link" href="https://www.hadithbd.com/hadith/detail/?book=1&section=65">কুরবানি সম্পর্কে বিস্তারিত জানতে ক্লিক করুন</a
+        >
+        <br />
+      </div>
 
-            <div>
-                <a href="https://github.com/AriyanShihab"> github</a>
-                <a href="https://www.linkedin.com/in/ariyanshihab/"> linkedin</a>
-            </div>
-        </div>
+      <div class="bt center">
+        <p>ডেভেলপ করছেন আরিয়ান শিহাব</p>
+        <a class="footer-link" href="https://github.com/AriyanShihab">
+          গিঠহাব</a
+        >
+        <a class="footer-link" href="https://www.linkedin.com/in/ariyanshihab/"
+          >লিঙ্কডিন</a
+        >
+        <br />
+      </div>
     </footer>
 
-    <script src="./script/app.js"></script>
-</body>
+    <!-- bootstrap -->
 
+    <script src="./script/app.js"></script>
+  </body>
 </html>

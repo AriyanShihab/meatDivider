@@ -6,6 +6,7 @@
 
 .center {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 ::placeholder {
@@ -18,19 +19,20 @@
     justify-content: center;
     align-items: center;
     padding: 150px 20px;
+    background: #0b0931;
 }
 
 .heading {
-    font-size: 20px;
-    color: #0b0931;
+    font-size: 24px;
+    color: #e4e2fb;
     margin: 10px 0;
+    font-weight: 900;
 }
 
 .container {
-    max-width: 600px;
-    margin: 50px auto;
+    max-width: 700px;
     padding: 15px;
-    border: 1px solid #b7b6b6;
+    border: 1px solid #b7b6b633;
     border-radius: 8px;
 }
 
@@ -40,12 +42,12 @@
     border: none;
     outline: none;
     padding: 15px;
-    height: 40px;
+    height: 30px;
     width: 80%;
     margin: 20px auto;
-    background: #f1f6fb;
+    background: #d8d6ff;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .partnerCount {
@@ -59,15 +61,16 @@
 .small {
     font-size: 16px;
     line-height: 30px;
+    color: #cbc8fb;
 }
 
 .submit-button {
     border: none;
     outline: none;
-    background: #0b0931;
+    background: #d8d6ff;
     padding: 10px 15px;
     font-size: 18px;
-    color: #fff;
+    color: rgb(25, 5, 43);
     font-weight: bold;
     border-radius: 5px;
 }
@@ -77,7 +80,7 @@
 }
 
 .infoBer {
-    color: #0b0931;
+    color: #c2d9ff;
     font-size: 16px;
     padding: 10px 0;
     border-bottom: 1px solid #333;
@@ -85,7 +88,7 @@
 
 .learge {
     font-size: 22px;
-    color: #7f39ef;
+    color: #12f866;
     font-family: "Tiro Bangla", serif;
 }
 
@@ -109,12 +112,25 @@
 
 footer a {
     text-decoration: none;
-    color: #7f39ef;
+    color: #ef39d1;
     margin: 5px;
 }
 
 footer {
-    padding: 20px;
+    padding: 20px 0;
     background-color: #0b0931;
     color: #efefef;
+}
+
+.bt {
+    border-top: 1px solid #b7b6b633;
+    padding-top: 10px;
+}
+
+.footer-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background: #ef39d153;
 }
